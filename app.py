@@ -17,7 +17,7 @@ class Media(db.Model):
 
 
 @app.route('/', methods=['POST', 'GET'])
-def hello_world():  # put application's code here
+def request_function():
     if request.method == 'POST':
         try:
             cap = cv2.VideoCapture(0)
