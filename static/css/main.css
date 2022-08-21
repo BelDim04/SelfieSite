@@ -1,0 +1,35 @@
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f2eecb;
+}
+
+form {
+  display: block;
+  background: #f2f4e5;
+  padding: 20px;
+  width: 100%;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+form input {
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 7px;
+  width: 25%;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+img {
+  width: 25%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 2%;
+  border-radius: 15px;
+  border: 1px solid black;
+}

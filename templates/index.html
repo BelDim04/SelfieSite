@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>EverySelfie</title>
+{% endblock %}
+
+{% block body %}
+    <form action="/" method="POST">
+        <input type="submit" value="Post">
+    </form>
+    {% for picture in pictures[::-1] %}
+        <img src="{{ url_for('static', filename=picture.path) }}">
+    {% endfor %}
+{% endblock %}
